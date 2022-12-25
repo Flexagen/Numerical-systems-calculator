@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:layout="@layout/settings_toolbar"
+        app:title="@string/messages_header"
+        app:widgetLayout="@layout/settings_toolbar">
+        <SeekBarPreference
+            android:id="@+id/seekbar_music"
+            android:max="100"
+            app:defaultValue="100"
+            app:icon="@drawable/tws"
+            app:iconSpaceReserved="true"
+            app:key="volume"
+            app:min="0"
+            app:selectable="true" />
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/wallpapers"
+        android:entryValues="@array/back"
+        android:key="wallpapers"
+        android:title="Выбор фона"
+        app:layout="@layout/custom_select_back" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/musics"
+        android:entryValues="@array/music_id"
+        android:key="musics"
+        android:title="Выбор музыки"
+        app:layout="@layout/custom_select_music" />
+
+</PreferenceScreen>

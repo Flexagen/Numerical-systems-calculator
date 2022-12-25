@@ -1,0 +1,65 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="wallpapers">
+        <item>Случайный фон</item>
+        <item>Sailor Moon</item>
+        <item>Ночной Питер</item>
+        <item>Дождливые будни</item>
+        <item>Закат над лапшичной</item>
+        <item>Буддисткий храм</item>
+        <item>Берсерк</item>
+        <item>Киборг-переулок</item>
+        <item>Паровозик из Ромашково</item>
+        <item>Mojang водопадик</item>
+    </string-array>
+
+    <string-array name="back">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="musics">
+        <item>Случайная композиция</item>
+        <item>Hotline Bling</item>
+        <item>Happy 8-bit</item>
+        <item>На заре 8-bit</item>
+        <item>Another Brick in the Wall</item>
+        <item>Gold</item>
+        <item>Rampage</item>
+        <item>Phonk Edition 6</item>
+        <item>Phonky monkey</item>
+        <item>Best phonk since 1986 year</item>
+    </string-array>
+
+    <string-array name="music_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+</resources>

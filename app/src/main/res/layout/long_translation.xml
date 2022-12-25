@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ImageView
+        android:id="@+id/octopus"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mem3" />
+
+    <TextView
+        android:id="@+id/user_message"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="На связи с космосом"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="@color/purple_on"
+        android:text="Прервать вычисления"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/message_to_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:fadeScrollbars="true"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:isScrollContainer="true"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        android:text="Всё в этом мире требует времени. Но калькулятор его экономит...\n\nПрошло времени:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+</RelativeLayout>
